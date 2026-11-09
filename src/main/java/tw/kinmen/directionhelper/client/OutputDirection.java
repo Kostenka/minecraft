@@ -26,7 +26,7 @@ public final class OutputDirection {
         }
         // 合成器：正面就是吐東西的那面
         if (state.getBlock() instanceof CrafterBlock) {
-            return state.getValue(CrafterBlock.ORIENTATION).front();
+            return state.getValue(net.minecraft.world.level.block.state.properties.BlockStateProperties.ORIENTATION).front();
         }
         return null;
     }

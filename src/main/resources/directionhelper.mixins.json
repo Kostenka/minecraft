@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "tw.kinmen.directionhelper",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["mixin.NoteBlockMixin"],
+  "client": ["client.mixin.MultiPlayerGameModeMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

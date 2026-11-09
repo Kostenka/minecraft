@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "directionhelper",
+  "version": "${version}",
+  "name": "方向小幫手 Direction Helper",
+  "description": "看著投擲器／發射器／偵測器／漏斗／合成器時顯示輸出方向箭頭；手上有東西時點音階盒不會調音。",
+  "authors": ["Kinmen"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": ["tw.kinmen.directionhelper.client.DirectionHelperClient"]
+  },
+  "mixins": ["directionhelper.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
